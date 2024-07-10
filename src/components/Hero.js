@@ -3,9 +3,9 @@ import naufal from "../../public/Image/naufal.png";
 
 function Hero() {
 	return (
-		<div className='h-screen bg-[#5858d2] md:flex md:flex-row-reverse md:items-center md:justify-around flex flex-col items-center pt-10 md:pt-0'>
+		<div className='h-screen bg-[#5858d2] flex flex-col md:flex-row-reverse md:items-center md:justify-around justify-center items-center md:pt-0'>
 			{/* Gambar */}
-			<div className='bg-[#f3aa31] rounded-full md:h-96 md:w-96 w-40 h-40 flex justify-center items-center mx-auto md:mx-0'>
+			<div className='bg-[#f3aa31] rounded-full md:h-96 md:w-96 w-56 h-56 mb-2 flex justify-center items-center mx-auto md:mx-0'>
 				<div className="mx-auto">
 					<Image
 						src={naufal}

@@ -7,10 +7,10 @@ function Navbar() {
 				className={
 					"bg-[#6e6ef7] fixed md:flex gap-14 items-center min-w-full justify-center font-bold text-2xl py-7 text-white shadow-md hidden"
 				}>
-				<Link href={"#"}>Home</Link>
-				<Link href={"#"}>About</Link>
-				<Link href={"#"}>Skill</Link>
-				<Link href={"#"}>Project</Link>
+				<Link href={"#"} className="hover:text-orange-400 duration-300">Home</Link>
+				<Link href={"#"} className="hover:text-orange-400 duration-300">About</Link>
+				<Link href={"#"} className="hover:text-orange-400 duration-300">Skill</Link>
+				<Link href={"#"} className="hover:text-orange-400 duration-300">Project</Link>
 			</div>
 
 		</nav>

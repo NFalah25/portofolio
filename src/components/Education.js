@@ -17,10 +17,10 @@ const Education = () => {
 						</div>
 						<div className='md:text-[1.1em] mt-2'>
 							<ul className='list-disc ms-10'>
-								<li>D4 - Teknik Informatika</li>
+								<li>D4 Informatics Engineering - GPA <b>3.67</b></li>
 							</ul>
 						</div>
-						<p className='text-right opacity-90 mt-5'>2019 - present</p>
+						<p className='text-right opacity-90 mt-5'>2019 - Now</p>
 					</div>
 				</div>
 			</div>

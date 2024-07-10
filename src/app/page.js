@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Project from "@/components/Project";
 import Skill from "@/components/Skill";
 import Image from "next/image";
+import Head from "next/head";
 
 export default function Home() {
 	return (

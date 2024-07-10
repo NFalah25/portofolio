@@ -11,6 +11,8 @@ import midtrans from "../../public/Image/logo/midtrans.png";
 import mongo from "../../public/Image/logo/mongo.png";
 import java from "../../public/Image/logo/java.png";
 import flutter from "../../public/Image/logo/flutter.png";
+import inertia from "../../public/Image/logo/inertia.png";
+import python from "../../public/Image/logo/python.png";
 
 const { default: SubTitle } = require("./SubTitle");
 const { default: Template } = require("./Template");
@@ -29,21 +31,23 @@ function Skill() {
 		{ name: "Mongo", image: mongo },
 		{ name: "Java", image: java },
 		{ name: "Flutter", image: flutter },
+		{ name: "Inertia JS", image: inertia },
+		{ name: "Python", image: python },
 	];
 
 	return (
-		<Template className={"h-full bg-primary"}>
+		<Template className={"h-full"}>
 			<SubTitle title='Skill' />
-			<div className='flex flex-wrap mx-16 mt-10'>
+			<div className='flex flex-wrap md:mx-16 mx-7 mt-10'>
 				{skills.map((skill, index) => (
 					<div
 						key={index}
-						className='flex-auto text-center h-40 md:mx-10 mb-5 hover:transition ease-in-out duration-500 hover:scale-125'>
+						className='flex-auto text-center md:h-40 md:mx-10 mx-3 md:mb-5 mb-14 hover:transition ease-in-out duration-500 hover:scale-125'>
 						<div className='text-center'>
 							<Image
 								src={skill.image}
 								alt={skill.name}
-								className='h-28 w-28 mx-auto bg-white rounded-full'
+								className='md:h-28 md:w-28 w-16 h-16 mx-auto bg-white rounded-full'
 							/>
 						</div>
 						<p className='text-center'>{skill.name}</p>

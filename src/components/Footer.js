@@ -7,8 +7,9 @@ function Footer() {
 			bg='bg-[#3030bc] shadow-lg'
 			className={"h-full"}>
 			<SubTitle
-				title={"Kontak Saya"}
+				title={"Contact Me"}
 				className={"pt-5"}
+				id={"contact"}
 			/>
 			<div className='flex justify-center md:my-5'>
 				<a

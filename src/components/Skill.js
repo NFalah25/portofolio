@@ -36,8 +36,8 @@ function Skill() {
 	];
 
 	return (
-		<Template className={"h-full"}>
-			<SubTitle title='Skill' />
+		<Template className={"h-full"} id={'skill'}>
+			<SubTitle title='Skill'/>
 			<div className='flex flex-wrap md:mx-16 mx-7 mt-10'>
 				{skills.map((skill, index) => (
 					<div

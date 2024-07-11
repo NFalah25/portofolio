@@ -17,9 +17,14 @@ import python from "../../public/Image/logo/python.png";
 
 const Project = () => {
 	return (
-		<Template className={"h-full pb-20"}>
+		<Template
+			className={"h-full pb-20"}
+			id={"project"}>
 			<div>
-				<SubTitle title='Project' />
+				<SubTitle
+					title='Project'
+					className={"pt-20"}
+				/>
 			</div>
 			<Card>
 				<Card.Body image={zeus}>
@@ -28,10 +33,9 @@ const Project = () => {
 						href={"https://github.com/NFalah25/SIM-GYM"}
 					/>
 					<Card.Description>
-						MFEP adalah sebuah aplikasi yang digunakan untuk mengelola
-						data mahasiswa, dosen, mata kuliah, dan nilai. MFEP adalah
-						sebuah aplikasi yang digunakan untuk mengelola data
-						mahasiswa, dosen, mata kuliah, dan nilai.
+						Zeus Physique is a web application for gym management. The
+						main feature of Zeus Physique is a payment system for users
+						who want to subscribe to the gym
 					</Card.Description>
 					<TempStack>
 						<Card.TechStack
@@ -66,9 +70,9 @@ const Project = () => {
 						href={"https://github.com/NFalah25/SPK-MFEP"}
 					/>
 					<Card.Description>
-						MFEP adalah sebuah aplikasi yang digunakan untuk mengelola
-						data mahasiswa, dosen, mata kuliah, dan nilai. Aplikasi ini
-						dibuat menggunakan framework Laravel dan Vue.js
+						This web-based application is designed to facilitate users
+						in decision-making using the Multifactor Evaluation Process
+						(MFEP) decision support system method.
 					</Card.Description>
 					<TempStack>
 						<Card.TechStack
@@ -92,10 +96,10 @@ const Project = () => {
 						href={""}
 					/>
 					<Card.Description>
-						MFEP adalah sebuah aplikasi yang digunakan untuk mengelola
-						data mahasiswa, dosen, mata kuliah, dan nilai. MFEP adalah
-						sebuah aplikasi yang digunakan untuk mengelola data
-						mahasiswa, dosen, mata kuliah, dan nilai.
+						The Malang State Polytechnic Facilities & Infrastructure
+						Lending Information System aims to streamline borrowing
+						activities for users, ensuring structured and integrated
+						loan application processes within SIM-SARPRAS POLINEMA.
 					</Card.Description>
 					<TempStack>
 						<Card.TechStack
@@ -118,10 +122,10 @@ const Project = () => {
 						href={""}
 					/>
 					<Card.Description>
-						MFEP adalah sebuah aplikasi yang digunakan untuk mengelola
-						data mahasiswa, dosen, mata kuliah, dan nilai. MFEP adalah
-						sebuah aplikasi yang digunakan untuk mengelola data
-						mahasiswa, dosen, mata kuliah, dan nilai.
+						TransferMe is a simple digital wallet prototype equipped
+						with an OCR system for fast and easy account setup, sending
+						transaction processes for a better user experience in
+						managing finances.
 					</Card.Description>
 					<TempStack>
 						<Card.TechStack

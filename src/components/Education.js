@@ -1,11 +1,12 @@
+import SubTitle from "./SubTitle";
 import Template from "./Template";
 
 const Education = () => {
 	return (
-		<Template>
+		<Template id={'education'} className="bg-primary">
 			<div className=''>
 				<div className=''>
-					<h2 className='text-center text-[2em] font-bold'>Education</h2>
+					<SubTitle className='text-center text-[2em] font-bold pt-20'>Education</SubTitle>
 				</div>
 				<div className='justify-center flex'>
 					<div className='bg-[#f3aa31] md:w-1/3 rounded-lg md:px-5 px-2 my-10 py-5 mx-10'>
@@ -20,7 +21,7 @@ const Education = () => {
 								<li>D4 Informatics Engineering - GPA <b>3.67</b></li>
 							</ul>
 						</div>
-						<p className='text-right opacity-90 mt-5'>2019 - Now</p>
+						<p className='text-right opacity-90 mt-5'>2021 - Now</p>
 					</div>
 				</div>
 			</div>

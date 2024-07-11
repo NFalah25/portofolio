@@ -6,7 +6,7 @@ import SubTitle from "./SubTitle";
 function About() {
 	return (
 		<Template>
-			<SubTitle title='About Me' />
+			<SubTitle className={'pt-20'} title='About Me' id="about"/>
 			<div className='flex gap-10 items-center justify-center flex-col md:flex-row'>
 				<div className=''>
 					<Image
